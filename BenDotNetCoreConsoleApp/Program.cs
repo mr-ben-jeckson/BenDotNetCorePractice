@@ -63,5 +63,6 @@ if (age > 20)
     Console.WriteLine("You are teenager");
 } else
 {
-    throw new Exception("Invalid Number Occured");
+    Console.WriteLine("Invalid Data");
 }
+
