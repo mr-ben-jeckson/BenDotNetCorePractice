@@ -2,6 +2,7 @@
 using BenDotNetCore.RESTapi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace BenDotNetCore.RESTapi.Controllers
 {
@@ -12,7 +13,7 @@ namespace BenDotNetCore.RESTapi.Controllers
         private readonly AppDbContext _db = new AppDbContext();
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult Index()
         {
             var blogs = _db.Blogs
                     .Where(x => x.IsDeleted == false)
@@ -30,7 +31,7 @@ namespace BenDotNetCore.RESTapi.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult Edit(int id)
+        public IActionResult Get(int id)
         {
             var blog = _db.Blogs.Where(x => x.IsDeleted == false && x.BlogId == id).FirstOrDefault();
             if (blog is null)

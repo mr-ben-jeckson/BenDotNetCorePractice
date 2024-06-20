@@ -25,6 +25,6 @@ namespace BenDotNetCore.RESTapi.Models
         public string? BlogContent { get; set; }
 
         [Column("IsDeleted")]
-        public bool? IsDeleted { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }
