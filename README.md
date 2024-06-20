@@ -14,3 +14,15 @@
 2. Read
 3. Update
 4. Delete
+
+## EF CORE CRUD
+1. Create
+2. Read
+3. Update
+4. Delete (Soft Delete Implement)
+
+## .NET WEB CORE API
+1. Create
+2. Read
+3. Update (PUT/PATCH)
+4. Delete 

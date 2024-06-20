@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{88
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenDotNetCore.RESTapi", "BenDotNetCore.RESTapi\BenDotNetCore.RESTapi.csproj", "{525F4141-1261-46DC-85B5-8EDE762993FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{5F849DA2-6778-46EE-93B8-CF5C69F82516}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F849DA2-6778-46EE-93B8-CF5C69F82516}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F849DA2-6778-46EE-93B8-CF5C69F82516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525F4141-1261-46DC-85B5-8EDE762993FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525F4141-1261-46DC-85B5-8EDE762993FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525F4141-1261-46DC-85B5-8EDE762993FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525F4141-1261-46DC-85B5-8EDE762993FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
