@@ -21,7 +21,7 @@
 3. Update
 4. Delete (Soft Delete Implement)
 
-## .NET WEB CORE API
+## ASP.NET CORE WEB API
 1. Create
 2. Read
 3. Update (PUT/PATCH)
