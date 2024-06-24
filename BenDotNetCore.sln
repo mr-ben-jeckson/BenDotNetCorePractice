@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{88
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenDotNetCore.RESTapi", "BenDotNetCore.RESTapi\BenDotNetCore.RESTapi.csproj", "{525F4141-1261-46DC-85B5-8EDE762993FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenDotNetCore.RESTapi", "BenDotNetCore.RESTapi\BenDotNetCore.RESTapi.csproj", "{525F4141-1261-46DC-85B5-8EDE762993FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenDotNetCoreMinimalApi", "BenDotNetCoreMinimalApi\BenDotNetCoreMinimalApi.csproj", "{7057E152-B094-4CB2-A1BD-3210AC9A12DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{525F4141-1261-46DC-85B5-8EDE762993FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{525F4141-1261-46DC-85B5-8EDE762993FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{525F4141-1261-46DC-85B5-8EDE762993FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7057E152-B094-4CB2-A1BD-3210AC9A12DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7057E152-B094-4CB2-A1BD-3210AC9A12DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7057E152-B094-4CB2-A1BD-3210AC9A12DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7057E152-B094-4CB2-A1BD-3210AC9A12DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
