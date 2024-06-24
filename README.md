@@ -26,3 +26,5 @@
 2. Read
 3. Update (PUT/PATCH)
 4. Delete 
+
+## ASP.NET CORE WEB API MINIMAL
